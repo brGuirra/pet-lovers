@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  margin-top: 3rem;
+
+  input {
+    flex: 1;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    padding: 1rem;
+
+    &::placeholder {
+      font-style: italic;
+      font-size: 0.875rem;
+      color: var(--black);
+      opacity: 0.6;
+    }
+  }
+
+  button {
+    display: block;
+    background: var(--yellow-400);
+
+    width: 150px;
+    height: 50px;
+
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0 5px 5px 0;
+  }
+}

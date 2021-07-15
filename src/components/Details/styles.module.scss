@@ -1,0 +1,51 @@
+.container {
+  margin: 4rem;
+
+  h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+
+    svg {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .detailItem {
+    display: flex;
+    max-width: 26rem;
+    margin: 0 auto;
+
+    & + .detailItem {
+      margin-top: 2rem;
+    }
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      margin-right: 1rem;
+    }
+
+    .info {
+      h6 {
+        font-size: 1.125rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .cashBackRule {
+        font-size: 0.875rem;
+        font-weight: 300;
+        font-style: italic;
+        margin-top: 1rem;
+      }
+    }
+  }
+}

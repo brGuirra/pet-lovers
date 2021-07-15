@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  // Colors
+  --white: #f9f9f9;
+  --black: #141414;
+
+  --yellow-400: #ffc947;
+
+  --red-600: #e40017;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 97.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  padding: 2rem;
+}
+
+body,
+input,
+button {
+  font: 300 1.125rem 'Raleway', sans-serif;
+}
+
+button,
+input {
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
