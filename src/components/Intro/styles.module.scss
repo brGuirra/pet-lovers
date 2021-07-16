@@ -4,4 +4,10 @@
     font-size: 3.75rem;
     margin-bottom: 1rem;
   }
+
+  @media (max-width: 1439px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
 }
