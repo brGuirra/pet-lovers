@@ -1,13 +1,31 @@
+import { useState, useEffect } from 'react';
+
 import { Header } from './components/Header';
 import { Intro } from './components/Intro';
 import { Form } from './components/Form';
 import { Gallery } from './components/Gallery';
 import { Details } from './components/Details';
 import { Footer } from './components/Footer';
+import { SuccessMessage } from './components/SuccessMessage';
 
 import styles from './styles/App.module.scss';
 
 function App(): JSX.Element {
+  const [isUserAlreadyRegistered, setIsUserAlreadyRegistered] = useState(false);
+
+  useEffect(() => {
+    const hasEmail = localStorage.getItem('EMAIL');
+
+    if (hasEmail) {
+      setIsUserAlreadyRegistered(true);
+    }
+  }, []);
+
+  function saveCustomerEmail(customerEmail: string): void {
+    localStorage.setItem('EMAIL', customerEmail);
+    setIsUserAlreadyRegistered(true);
+  }
+
   return (
     <>
       <div className={styles.container}>
@@ -15,7 +33,12 @@ function App(): JSX.Element {
           <Header />
           <main>
             <Intro />
-            <Form />
+            {isUserAlreadyRegistered ? (
+              <SuccessMessage />
+            ) : (
+              <Form saveCustomerEmail={saveCustomerEmail} />
+            )}
+
             <Details />
           </main>
         </div>

@@ -43,7 +43,7 @@ export const Details = (): JSX.Element => {
           <h6>Cashback</h6>
           <p>Compre com o nosso cartão e ganhe 5% de cashback.</p>
           <p className={styles.cashBackRule}>
-            O cashback é creditado em até 30 dias após a compra
+            O cashback é creditado em até 30 dias após a compra.
           </p>
         </div>
       </div>

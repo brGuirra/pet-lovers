@@ -30,5 +30,20 @@
     font-size: 1rem;
     font-weight: 700;
     border-radius: 0.2rem;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(80%);
+    }
+  }
+}
+
+.successMessage {
+  margin-top: 2rem;
+  text-align: center;
+
+  p + p {
+    margin-top: 1rem;
   }
 }
