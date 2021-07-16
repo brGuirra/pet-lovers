@@ -1,0 +1,22 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  max-width: 720px;
+
+  list-style-type: none;
+
+  li {
+    img {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 0.2rem;
+    }
+  }
+
+  li:nth-child(5) {
+    grid-column: 2 / 4;
+    grid-row: span 2;
+  }
+}

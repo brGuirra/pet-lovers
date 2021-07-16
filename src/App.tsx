@@ -1,9 +1,10 @@
 import { Header } from './components/Header';
 import { Intro } from './components/Intro';
 import { Form } from './components/Form';
+import { Gallery } from './components/Gallery';
+import { Details } from './components/Details';
 
 import styles from './styles/App.module.scss';
-import { Details } from './components/Details';
 
 function App(): JSX.Element {
   return (
@@ -16,7 +17,7 @@ function App(): JSX.Element {
           <Details />
         </main>
       </div>
-      <aside />
+      <Gallery />
     </div>
   );
 }

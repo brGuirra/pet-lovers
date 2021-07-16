@@ -1,11 +1,15 @@
 .form {
-  display: flex;
   margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
 
   input {
-    flex: 1;
+    width: 100%;
+    max-width: 30rem;
     height: 50px;
-    border-radius: 5px 0 0 5px;
+    border-radius: 0.2rem;
     padding: 1rem;
 
     &::placeholder {
@@ -17,14 +21,13 @@
   }
 
   button {
-    display: block;
     background: var(--yellow-400);
 
-    width: 150px;
+    width: 30rem;
     height: 50px;
 
     font-size: 1rem;
     font-weight: 700;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0.2rem;
   }
 }
