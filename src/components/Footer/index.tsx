@@ -5,15 +5,20 @@ import styles from './styles.module.scss';
 
 export const Footer = (): JSX.Element => {
   return (
-    <footer>
-      <div className={styles.container}>
-        <p>
+    <footer className={styles.footer}>
+      <div className={styles.footerContainer}>
+        <p className={styles.footerText}>
           Feito com carinho por <span>Bruno</span>
         </p>
-        <a href="https://github.com/brGuirra" target="blank">
+        <a
+          className={styles.footerLink}
+          href="https://github.com/brGuirra"
+          target="blank"
+        >
           <GitHub />
         </a>
         <a
+          className={styles.footerLink}
           href="https://www.linkedin.com/in/bruno-guirra-7766b6209/"
           target="blank"
         >
