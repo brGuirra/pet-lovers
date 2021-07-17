@@ -1,5 +1,3 @@
-import styles from './styles.module.scss';
-
 import Dog1 from '../../assets/images/dog-1.jpg';
 import Dog2 from '../../assets/images/dog-2.jpg';
 import Cat1 from '../../assets/images/cat-1.jpg';
@@ -9,6 +7,8 @@ import Hamster from '../../assets/images/hamster.jpg';
 import Lizard from '../../assets/images/lizard.jpg';
 import Turtle from '../../assets/images/turtle.jpg';
 import Cockatiel from '../../assets/images/cockatiel.jpg';
+
+import styles from './styles.module.scss';
 
 export const Gallery = (): JSX.Element => {
   return (

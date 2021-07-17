@@ -8,14 +8,15 @@ footer {
     height: 2px;
     background: var(--white);
   }
-  
-  .container {
+}
+
+.container {
     display: flex;
     align-items: center;
-    grid-gap: 1rem;
 
     p {
       flex-shrink: 0;
+      margin: 0 1rem;
       span {
         font-weight: 600;
         color: var(--yellow-400);
@@ -30,6 +31,10 @@ footer {
       flex-shrink: 0;
       fill: var(--white);
       transition: fill 0.2s;
+
+      &:first-child{
+        margin-right: 1rem;
+      }
       
       &:hover {
         fill: var(--yellow-400);
@@ -37,4 +42,3 @@ footer {
     }
     }
   }
-}
