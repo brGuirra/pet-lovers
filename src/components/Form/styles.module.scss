@@ -51,8 +51,12 @@
   border-radius: 0.2rem;
 
   transition: filter 0.2s;
+}
 
-  &:hover {
+// Prevents hover on touch events in mobile devices,
+// other else will work normally
+@media (hover: hover) and (pointer: fine) {
+  .btn:hover {
     filter: brightness(80%);
   }
 }
