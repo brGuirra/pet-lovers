@@ -8,14 +8,15 @@ The user should be able to subscribe to receive e-mails of the campaign, the dat
 
 ## Table of contents
 
-- [💁🏿 Overview](#-----overview)
-  * [📑 The challenge](#---the-challenge)
-  * [📸 Screenshots](#---screenshots)
-  * [🔗 Links](#---links)
-- [👨🏿‍💻 My process](#--------my-process)
-  * [🔨 Built with](#---built-with)
-  * [🤓 What I learned](#---what-i-learned)
-- [⌨ How to use](#--how-to-use)
+- [💁🏿 Overview](#overview)
+  * [📑 The challenge](#the-challenge)
+  * [📸 Screenshots](#screenshots)
+  * [🔗 Links](#links)
+- [👨🏿‍💻 My process](#my-process)
+  * [🔨 Built with](#built-with)
+  * [🤓 What I learned](#what-i-learned)
+- [⌨ How to use](#how-to-use)
+
 
 ## 💁🏿 Overview
 
