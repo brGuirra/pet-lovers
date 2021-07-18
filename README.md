@@ -1,4 +1,4 @@
-# Pet Lovers
+<h1>Pet Lovers</h1>
 
 ------
 
@@ -6,16 +6,11 @@ This project is part of [Hiring Coders](https://www.hiringcoders.com.br/) bootca
 
 The user should be able to subscribe to receive e-mails of the campaign, the data is saved in local storage.
 
-## Table of contents
+<h2>Table of contents</h2>
 
-- [💁🏿 Overview](#-----overview)
-  * [📑 The challenge](#---the-challenge)
-  * [📸 Screenshots](#---screenshots)
-  * [🔗 Links](#---links)
-- [👨🏿‍💻 My process](#--------my-process)
-  * [🔨 Built with](#---built-with)
-  * [🤓 What I learned](#---what-i-learned)
-- [⌨ How to use](#--how-to-use)
+[TOC]
+
+
 
 ## 💁🏿 Overview
 
