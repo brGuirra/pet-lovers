@@ -6,11 +6,6 @@ This project is part of [Hiring Coders](https://www.hiringcoders.com.br/) bootca
 
 The user should be able to subscribe to receive e-mails of the campaign, the data is saved in local storage.
 
-<h2>Table of contents</h2>
-
-[TOC]
-
-
 
 ## 💁🏿 Overview
 
